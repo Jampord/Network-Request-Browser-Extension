@@ -2,8 +2,6 @@
 
 A lightweight browser extension for **Chrome** and **Microsoft Edge** that captures and displays real-time network requests — like a mini DevTools in your toolbar.
 
-![screenshot](preview.png)
-
 ---
 
 ## 🚀 Features
