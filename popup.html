@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Network Monitor</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h2>Network Requests</h2>
+    <div class="header">
+      <div class="filter">
+        <label for="methodFilter">Filter by method:</label>
+        <select id="methodFilter">
+          <option value="ALL">All</option>
+          <option value="GET">GET</option>
+          <option value="POST">POST</option>
+          <option value="PATCH">PATCH</option>
+          <option value="DELETE">DELETE</option>
+        </select>
+      </div>
+      <button id="clearBtn">Clear Logs</button>
+    </div>
+    <div id="log"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>
